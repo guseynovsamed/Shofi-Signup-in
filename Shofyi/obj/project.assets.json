@@ -10867,11 +10867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/samedguseynov/Backend/Shofyi/Shofyi/Shofyi/Shofyi.csproj",
+      "projectUniqueName": "/Users/samedguseynov/Backend/Login/Shofyi/Shofyi.csproj",
       "projectName": "Shofyi",
-      "projectPath": "/Users/samedguseynov/Backend/Shofyi/Shofyi/Shofyi/Shofyi.csproj",
+      "projectPath": "/Users/samedguseynov/Backend/Login/Shofyi/Shofyi.csproj",
       "packagesPath": "/Users/samedguseynov/.nuget/packages/",
-      "outputPath": "/Users/samedguseynov/Backend/Shofyi/Shofyi/Shofyi/obj/",
+      "outputPath": "/Users/samedguseynov/Backend/Login/Shofyi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/samedguseynov/.nuget/NuGet/NuGet.Config"

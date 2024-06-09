@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{14618CD7-AC08-4DF4-B44B-A67ED8D32364}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Shofyi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shofyi/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Shofyi/Data/AppDbContext.cs" Line="28" Column="24" />
+      <File FileName="Shofyi/Controllers/AccountController.cs" Line="85" Column="19" />
+      <File FileName="Shofyi/Views/Account/SignIn.cshtml" Line="1" Column="1" />
+      <File FileName="Shofyi/Views/Shared/_Layout.cshtml" Line="109" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shofyi">
+            <Node name="Shofyi">
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

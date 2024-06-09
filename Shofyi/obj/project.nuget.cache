@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WtHz4qpNIwHbi2YiB7JQU04wdP0FsVcLSRw0Aqmhnuo4r5ME3SJtMdALqyLRAXG1kkoJt6GvVyzNepEr+HI6qw==",
+  "dgSpecHash": "W3BIpftOkt7opCNYhXdfdp0KYDTftFfuryZ6rt73AL/Rp/xTlqAUkDKYfoTbJEk/642L2J8OfGqKUzxHFfMjkw==",
   "success": true,
-  "projectFilePath": "/Users/samedguseynov/Backend/Shofyi/Shofyi/Shofyi/Shofyi.csproj",
+  "projectFilePath": "/Users/samedguseynov/Backend/Login/Shofyi/Shofyi.csproj",
   "expectedPackageFiles": [
     "/Users/samedguseynov/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/samedguseynov/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

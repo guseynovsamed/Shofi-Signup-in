@@ -18,35 +18,35 @@ namespace Shofyi.Data
             modelBuilder.Entity<Category>()
            .HasData(
             new Category
-{
-    Id = 1,
-    Name = "Headphones",
-    Image = "headphone-category.png"
-},
+            {
+                Id = 1,
+                Name = "Headphones",
+                Image = "headphone-category.png"
+            },
             new Category
-{
-    Id = 2,
-    Name = "Mobile Tablets",
-    Image = "mobile-category.png"
-},
+            {
+                Id = 2,
+                Name = "Mobile Tablets",
+                Image = "mobile-category.png"
+            },
             new Category
-{
-    Id = 3,
-    Name = "CPU Heat Pipes",
-    Image = "pc-category.png"
-},  
+            {
+                Id = 3,
+                Name = "CPU Heat Pipes",
+                Image = "pc-category.png"
+            },
             new Category
-{
-    Id = 4,
-    Name = "Smart Watch",
-    Image = "watch-category.png"
-},
+            {
+                Id = 4,
+                Name = "Smart Watch",
+                Image = "watch-category.png"
+            },
             new Category
-{
-    Id = 5,
-    Name = "Bluetooth",
-    Image = "acces-category.png"
-}
+            {
+                Id = 5,
+                Name = "Bluetooth",
+                Image = "acces-category.png"
+            }
             );
             base.OnModelCreating(modelBuilder);
         }

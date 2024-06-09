@@ -97,27 +97,35 @@
                     </div>
 
                     <div class="d-none d-lg-block col-lg-2 col-xl-3">
-                        <div class="account">
-                            <a href="login.html">
-                                <div class="login-icon">
-                                    <img src="~/assets/icons/login-icon.svg" alt="">
-                                </div>
-                                <div class="content d-lg-none d-xl-block">
-                                    @if (!User.Identity.IsAuthenticated)
-                                     {
-                                        <li><a class="px-1">@User.Identity.Name</a></li>
-                                        <li>
-                                            <form asp-controller="Account" asp-action="Logout">
-                                                  <button type="submit" class="px-1">Logout</button>
-                                            </form>
-                                        </li>
-                                     }
-                                     else
-                                     {
-                                        <li><a class="px-1" asp-controller="Account" asp-action="SignIn">Sing In</a></li>
-                                     }
-                                </div>
-                            </a>
+                        <div class="account d-flex flex-column align-items-center">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a asp-controller="Account" asp-action="Account">
+                                    <div class="login-icon">
+                                        <img src="./assets/icons/login-icon.svg" alt="">
+                                    </div>
+                                    <div class="content d-lg-none d-xl-block">
+                                        <p>Hello, @User.Identity.Name</p>
+                                        <p>Your Account</p>
+                                    </div>
+                                </a>
+                                <form method="post" asp-controller="Account" asp-action="LogOut">
+                                    <button type="submit" class="btn btn-secondary">Log out</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <a asp-controller="Account" asp-action="SignIn">
+                                    <div class="login-icon">
+                                        <img src="./assets/icons/login-icon.svg" alt="">
+                                    </div>
+                                    <div class="content d-lg-none d-xl-block">
+                                        <p>Hello, Sign In</p>
+                                        <p>Your Account</p>
+                                    </div>
+                                </a>
+                            }
+
                         </div>
                     </div>
 
